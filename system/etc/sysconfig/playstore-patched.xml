@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <allow-in-power-save-except-idle package="com.android.vending"></allow-in-power-save-except-idle>
+</config>
