@@ -1,12 +1,16 @@
 # Play Store Patched MicroG
 
-This is a patched version of the Google Play store.
+This is a patched version of the Google Play store to work with MicroG. Supposedly. As of right now I could not get it to work myself (DF-DFERH-01 error).
+
+This patched version does _not_ allow to you to download paid apps for free or similar functionality. It is simply patched to work with MicroG. Thus, you will need to install that first. 
 
 _AS OF NOW THIS REPO ONLY CONTAINS THE ARM64 VERSION AND DOES NOT VERIFY ANYTHING. SO DO NOT FLASH IT IF YOU DO NOT HAVE AN ARM64 CPU._
 
 ## Current version
 
 `13.8.16-all [PR] 235060107`
+
+Even though the Play Store APK itself (`Phonesky.apk`) is platform agnostic as far as I am aware, the included libraries are not. I have yet to make this module so that it can detect the platform and use the right files. So, right now, only the arm64 libraries are included.
 
 
 ## Credits
